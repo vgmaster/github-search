@@ -1,0 +1,8 @@
+$desktop: 1200;
+$laptop: 768;
+
+@mixin laptop {
+  @media (max-width: #{$laptop}) {
+    @content;
+  }
+}

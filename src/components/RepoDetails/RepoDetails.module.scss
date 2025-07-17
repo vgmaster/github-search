@@ -1,0 +1,54 @@
+.root {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  color: var(--color-text-primary);
+  font-size: 14px;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 1.25;
+}
+
+.badgesRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.language {
+  background: var(--color-controls);
+  color: #fff;
+  border-radius: 100px;
+  padding: 8px 12px;
+
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 8px;
+  color: var(--color-text-primary);
+}
+
+.topicsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.topic {
+  background: #e0e0e0;
+  border-radius: 24px;
+  padding: 2px 12px;
+}
+
+.licenseRow {
+  margin-top: 16px;
+}

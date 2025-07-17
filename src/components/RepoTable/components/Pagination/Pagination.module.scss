@@ -1,0 +1,54 @@
+.paginationBar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.66;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.rowsSelectWrapper {
+  display: flex;
+  column-gap: 4px;
+}
+
+.rowsSelect {
+  border: none;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+
+.range {
+  color: black;
+}
+
+.buttonsWrapper {
+  display: flex;
+  column-gap: 4px;
+}
+
+.arrowBtn {
+  border: none;
+  background: transparent;
+
+  font-size: 20px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrowBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.arrowBtn:not(:disabled):hover {
+  background: #eaf5ff;
+}

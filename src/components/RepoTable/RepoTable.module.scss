@@ -1,0 +1,35 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  background: #fff;
+}
+
+.table th,
+.table td {
+  padding: 16px 16px 16px 10px;
+  text-align: left;
+}
+
+.table th {
+  font-size: 14px;
+  line-height: 1.71;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.table tr:not(:last-child) td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.sortable {
+  color: #0366d6;
+  transition: color var(--transition-duration);
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.selected {
+  background: #eaf5ff;
+}

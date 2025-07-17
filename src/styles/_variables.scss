@@ -1,0 +1,20 @@
+@use "./constants" as *;
+@use "./helpers" as *;
+
+:root {
+  --color-accent: #00838f;
+  --color-controls: #2196f3;
+  --color-text-primary: rgba(0, 0, 0, 0.87);
+
+  --border-radius: 4px;
+
+  --transition-duration: 0.2s;
+
+  --container-padding-x: 16px;
+
+  --container-width: #{$container-desktop-width}px;
+
+  @include laptop {
+    --container-width: #{$container-laptop-width}px;
+  }
+}

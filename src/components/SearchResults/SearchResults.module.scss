@@ -1,0 +1,65 @@
+.outer {
+  width: 100vw;
+  min-height: 100dvh;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.outer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50vw;
+  height: 100%;
+  background: #fff;
+  z-index: 0;
+}
+
+.root {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+
+.leftPanel {
+  flex: 2;
+  background-color: #fff;
+  padding-right: 16px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.rightPanel {
+  flex: 1;
+}
+
+.selectPrompt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #4f4f4f;
+}
+
+.sectionTitle {
+  padding-block: 24px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.17;
+  color: var(--color-text-primary);
+}
+
+.loaderWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
+  width: 100%;
+}

@@ -1,0 +1,15 @@
+.sortArrow {
+  color: rgba(0, 0, 0, 0.5);
+  transition: color var(--transition-duration);
+  vertical-align: middle;
+  opacity: 0;
+}
+
+.sortArrowActive {
+  opacity: 1;
+  margin-right: 4px;
+}
+
+.sortArrowDesc {
+  transform: rotate(180deg);
+}
